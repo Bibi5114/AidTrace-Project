@@ -1,6 +1,4 @@
 # AidTrace-Project
-A Blockchain-Based Intelligent Disaster Relief and Donation Management System
-# AidTrace
 
 ### A Blockchain-Based Intelligent Disaster Relief and Donation Management System
 
@@ -93,77 +91,8 @@ The system combines on-chain and off-chain data management.
 
 Blockchain is used to improve the integrity and verifiability of recorded information. It does not automatically guarantee the accuracy of real-world data.
 
-## 5. Business Workflow
 
-```mermaid
-flowchart TD
-    A[Disaster Projects and Relief Needs] --> B[Demand Gap Analysis]
-    B --> C[Intelligent Donation Recommendation]
-    C --> D[Material Donation]
-    D --> E[Inventory Management]
-    E --> F[Intelligent Resource Allocation]
-    F --> G[Human Review and Approval]
-    G --> H[On-chain Allocation Confirmation]
-    H --> I[Transportation and Supply Tracking]
-    I --> J[Two-party Delivery Confirmation]
-    J --> K[Demand and Inventory Updates]
-    K --> L[Public Supply Tracking]
-
-    C -. Future Extension .-> M[Financial Donation and Procurement]
-    M -.-> E
-    L -. Future Extension .-> N[Charity Impact and Rewards]
-
-    classDef core fill:#e4f2ef,stroke:#388477,color:#173f56;
-    classDef future fill:#f4f5f6,stroke:#94a3b8,stroke-dasharray:5 5,color:#173f56;
-
-    class A,B,C,D,E,F,G,H,I,J,K,L core;
-    class M,N future;
-```
-
-## 6. Candidate Technology Stack
-
-| Category | Candidate Technologies |
-|---|---|
-| Frontend | Vue.js / React |
-| Backend | FastAPI / Node.js |
-| Database | SQLite / MySQL |
-| Blockchain | Ethereum |
-| Smart Contracts | Solidity |
-| Blockchain Development | Hardhat / Foundry |
-| Contract Libraries | OpenZeppelin |
-| Web3 Integration | ethers.js |
-| Wallet | MetaMask |
-| Data Processing | NumPy / Pandas |
-| Recommendation | Python / scikit-learn |
-| Optimization | SciPy / OR-Tools |
-| Visualization | ECharts |
-| Cloud Blockchain | To be determined |
-| Version Control | GitHub |
-
-The final technology stack will be determined after evaluating existing open-source projects and testing the development environment.
-
-## 7. Development Roadmap
-
-### Phase 1 — Minimum Viable Prototype (MVP)
-
-- [ ] Step 1: Research and open-source project evaluation.
-- [ ] Step 2: Development environment and project structure.
-- [ ] Step 3: Basic blockchain demo.
-- [ ] Step 4: Basic relief management system.
-- [ ] Step 5: Smart contracts and trustworthy supply tracking.
-- [ ] Step 6: On-chain and off-chain integration.
-- [ ] Step 7: Intelligent donation recommendation.
-- [ ] Step 8: Intelligent resource allocation.
-- [ ] Step 9: MVP integration and testing.
-- [ ] Step 10: Preliminary evaluation and deployment.
-
-### Phase 2 — Future Extensions
-
-- [ ] Integrated financial and material tracking.
-- [ ] Information disclosure and charity incentives.
-- [ ] Further system integration and evaluation.
-
-## 8. Proposed Repository Structure
+## 5. Proposed Repository Structure
 
 ```text
 AidTrace/
@@ -187,7 +116,7 @@ AidTrace/
 
 This structure is preliminary and may be adjusted during implementation.
 
-## 9. Related Work
+## 6. Related Work
 
 The following systems and research projects provide initial references for AidTrace.
 
@@ -201,7 +130,7 @@ The following systems and research projects provide initial references for AidTr
 
 Further literature review and open-source project evaluation will be conducted during development.
 
-## 10. Project Documents and Collaboration
+## 7. Project Documents and Collaboration
 
 | Resource | Link |
 |---|---|
@@ -212,7 +141,7 @@ Further literature review and open-source project evaluation will be conducted d
 | UI Prototypes | To be uploaded |
 | Slack Workspace | To be added |
 
-## 11. Team Members
+## 8. Team Members
 
 | Member | Responsibility |
 |---|---|
@@ -229,13 +158,13 @@ Further literature review and open-source project evaluation will be conducted d
 - Research paper writing.
 - Final project presentation.
 
-## 12. Getting Started
+## 9. Getting Started
 
 The project is currently in the planning and initial development stage.
 
 Installation instructions, environment requirements, smart contract deployment procedures, and application startup commands will be added once the initial implementation is available.
 
-## 13. Course Information
+## 10. Course Information
 
 **Course:** Introduction to Ethereum and Cloud Blockchain Solutions Engineering
 
